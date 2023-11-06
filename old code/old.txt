@@ -1,0 +1,315 @@
+            <div class="row">
+                <h3 class="corner-border"> Our Services</h3>
+                <div class="col-8">
+                    <p> Northlight Family serves a wide range of students and young adults looking for alternative paths
+                        in life. Clients may be emotionally strong and looking for a new challenge or struggling to stay
+                        afloat amid mental or physical barriers to success. We work with teens and young adults with
+                        behavioral problems, anxiety, self-destructive compulsions, suicidal thoughts or who are
+                        struggling with addictions to drugs, alcohol, sex, internet, and/or eating. Students may have
+                        bad grades, lack of motivation, learning disabilities, and/or oppositional, angry, and
+                        aggressive behaiviors or be highly motivated and successful students who are bored with school.
+                    </p>
+                    <p>Since 1999, we have matched over 1,000 families with our network of 1,200 programs and schools.
+                        We have a thorough knowledge of programs and a specific expertise in wilderness programs and
+                        residential treatment centers. We listen deeply and follow the latest research to help you find
+                        the best resources for your healing and growth. Depending on age and other factors, we work with
+                        clients to choose programs and opportunities that will be a good fit for their unique situation.
+                        Examples of what we can help you to find:</p>
+                    <ul>
+                        <li>Wilderness programs</li>
+                        <li>Residential treatment centers </li>
+                        <li>Boarding schools and schools for learning disabilities</li>
+                        <li>High school semester programs, gap years and alternatives to college</li>
+                        <li>Transitional and step down programs</li>
+                        <li>Independent living and home-based solutions</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        /* h1.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: .2s;
+}
+
+h5.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 1s;
+  padding-bottom: 10px;
+}
+
+p.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: .5s;
+  display:inline-block;
+  padding: 0 25%;
+} 
+
+a.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 1.7s;
+  margin: 20px 10px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}  */
+
+
+
+
+        <section class=" gray-section" id="our-approach">
+            <div class="container">
+                <h3>Our Approach to Consulting</h3>
+                <div class="row approach">
+                    <div class="col-lg approach-box">
+                        <!-- <img src="images/puzzle.png" class="approach-icon"> -->
+                        <h4> Matchmaking</h4>
+                        <p> Matchmaking is the essence of good educational consulting, and we are skilled at it. We take
+                            the
+                            time to really listen to clients and their families, to perceive the nuances of each unique
+                            situation. Our expertise, diligent research, and over two decades of experience allow us to
+                            match you, and your family, to the resources and people that fit best.</p>
+                    </div>
+                    <div class="col-lg approach-box">
+                        <!-- <img src="images/growth.png" class="approach-icon"> -->
+                        <h4> Integrative Recovery</h4>
+                        <p>Every program we recommend will have the right services, curriculum, and therapeutic
+                            modalities
+                            to help, as well as appropriately trained staff and strong safety protocols. However, we
+                            have a
+                            preference for programs that also take care to nurture and support the spirit and soul of
+                            our
+                            clients. We look for an integrative and functional approach to recovery that seeks to heal
+                            the
+                            whole person.</p>
+                    </div>
+                    <div class="col-lg approach-box">
+                        <!-- <img src="images/family.png" class="approach-icon"> -->
+                        <h4> Whole Family Healing</h4>
+                        <p>We believe in whole family approach to healing. When we recommend a school to your family, we
+                            are
+                            referring your entire family to the school. One family member is not sent away in the hope
+                            that
+                            they will come home “fixed,” instead, every member family will be included in the process.
+                        </p>
+                    </div>
+                    <div class="col-lg approach-box">
+                        <!-- <img src="images/heart-hands.png" class="approach-icon"> -->
+                        <h4>Advocating for You</h4>
+                        <p> We are your advocate throughout the entire process of using a school or program. Programs
+                            are
+                            familiar with us and we are familiar with the programs, their teachers, and their
+                            therapists.
+                            Because of this relationship, our families often get better service and we are better able
+                            to
+                            help guide you to a positive outcome. With our help, you will get the full value of the
+                            program
+                            and any support services offered.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blue-section" id="process">
+            <div class="container">
+                <h3 class=""> Our Process</h3>
+                <div class="row">
+                    <div class="col ">
+                        <h4>Evaluation and Deliberation</h4>
+                        <p>We start the process with an intake interview that helps us get a full picture of you and
+                            your
+                            situation. We gather a thorough history, evaluate any relevant school records and testing
+                            data,
+                            and conduct interviews with selected individuals (teachers, counselors, coaches). After
+                            gathering information and determining the optimal type of environment for you, we will
+                            provide a
+                            list of possible programs or schools. This phase is about getting you to a wise and informed
+                            decision, and we will do what it takes to help you make that decision.</p>
+                    </div>
+                    <div class="col ">
+                        <h4>Advocacy</h4>
+                        <p> </p>
+                    </div>
+
+                    <div class="col ">
+                        <h4>Transition and Future Services</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gray-section" id="staff">
+            <div class="container">
+                <h3>Our Staff</h3>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="white-section">
+
+            <div class="container">
+                <h3>Contact Us</h3>
+                <p> We are proud that the majority of our referrals are from previous clients and believe this is due to
+                    the
+                    caring, long-term connections that we build with each family. Please contact us for references. Our
+                    clients are our best representatives, and we are happy to also put you in touch with them.</p>
+            </div>
+        </section>
+
+
+        /* nav toggler */
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+
+.navbar-toggler, 
+.navbar-toggler:focus, 
+.navbar-toggler:active, 
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.toggler-icon-light {
+    background-color:#1b5997;
+}
+
+.toggler-icon-dark {
+    background-color: white;
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+    position: absolute;
+    top: 0px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    position: absolute;
+    top: 20px;
+    transform: rotate(0deg);
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+    top: inherit;
+    transform: rotate(-45deg) translate(5px,5px );
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    top: inherit;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    top: inherit;
+    transform: rotate(45deg) translate(5px,-5px );
+}
+
+
+
+
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none" href="#home">
+                <img>
+            </a>
+
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div class="collapse navbar-collapse justify-content-around" id="navbarToggle">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#intro">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="html/teens.html">Teens</a>
+                          <a class="dropdown-item" href="html/ya.html">Young Adults</a>
+                          <a class="dropdown-item" href="html/families.html">Families</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/process.html">Process</a>
+                    </li>
+                </ul>
+
+                <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block" href="#home">
+                    <img>
+                </a>
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/philosophy.html">Philosophy </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/staff.html">Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
