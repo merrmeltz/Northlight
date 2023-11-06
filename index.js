@@ -8,6 +8,7 @@ function setHeaderColor() {
   if ($(document).scrollTop() > 100) {
     $('nav').removeClass('navbar-dark');
     $('.navbar-brand img').removeClass('nav-image-dark');
+    $('.dropdown-menu').removeClass('dropdown-dark');
 
     $('nav').addClass('navbar-light');
     $('.navbar-brand img').addClass('nav-image-light');
@@ -22,6 +23,7 @@ function setHeaderColor() {
     $('nav').addClass('navbar-dark');
     $('.navbar-brand img').addClass('nav-image-dark');
     $('.navbar-toggler span').addClass('.toggler-icon-dark');
+    $('.dropdown-menu').addClass('dropdown-dark');
 
     $('.toggler-icon').css('background-color', 'white');
     $('.navbar-brand img').attr('src','images/logo.png');
