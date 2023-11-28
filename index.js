@@ -6,26 +6,54 @@ $(function(){
 
 function setHeaderColor() {
   if ($(document).scrollTop() > 100) {
-    $('nav').removeClass('navbar-dark');
-    $('.navbar-brand img').removeClass('nav-image-dark');
+    $('nav').removeClass('navbar-transparent');
+    $('nav').addClass('navbar-white');
+
+    $('.mobile-menu').removeClass('mobile-menu-transparent');
+    $('.mobile-menu').addClass('mobile-menu-white');
+
     $('.dropdown-menu').removeClass('dropdown-dark');
+    $('.dropdown-menu').addClass('dropdown-light');
 
-    $('nav').addClass('navbar-light');
-    $('.navbar-brand img').addClass('nav-image-light');
-
-    $('.toggler-icon').css('background-color', '#1b5997');
+    $('.ham').css('background-color', '#1b5997');
     $('.navbar-brand img').attr('src','images/logodark.png');
 
   } else {
-    $('nav').removeClass('navbar-light');
-    $('.navbar-brand img').removeClass('nav-image-light');
+    $('nav').removeClass('navbar-white');
+    $('nav').addClass('navbar-transparent');
 
-    $('nav').addClass('navbar-dark');
-    $('.navbar-brand img').addClass('nav-image-dark');
-    $('.navbar-toggler span').addClass('.toggler-icon-dark');
+    $('.mobile-menu').removeClass('mobile-menu-white');
+    $('.mobile-menu').addClass('mobile-menu-transparent');
+
+    $('.dropdown-menu').removeClass('dropdown-light');
     $('.dropdown-menu').addClass('dropdown-dark');
 
-    $('.toggler-icon').css('background-color', 'white');
+    $('.ham').css('background-color', 'white');
     $('.navbar-brand img').attr('src','images/logo.png');
 }};
 
+const btn = document.getElementById("menu-btn");
+const nav = document.getElementById("mobile");
+
+function navToggle() {
+  btn.classList.toggle("open");
+  nav.classList.toggle("hidden");
+  document.body.classList.toggle("no-scroll");
+}
+
+btn.addEventListener("click", navToggle);
+  
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}

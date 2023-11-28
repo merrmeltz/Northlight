@@ -31,23 +31,10 @@
     <header class="headerSection" id="top">
 
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <!--  Show this only on mobile to medium screens  -->
-            <a class="navbar-brand d-lg-none" href="#top">
-                <img>
-            </a>
+        <nav class="navbar">
+            <!-- <div class="navbar-container"> -->
 
-            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
-                data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="toggler-icon top-bar"></span>
-                <span class="toggler-icon middle-bar"></span>
-                <span class="toggler-icon bottom-bar"></span>
-            </button>
-
-            <!--  Use flexbox utility classes to change how the child elements are justified  -->
-            <div class=" collapse navbar-collapse justify-content-around" id="navbarToggle">
-                <ul class="navbar-nav">
+                <ul class="nav-left">
                     <li class="nav-item">
                         <a class="nav-link active" href="#intro">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -67,11 +54,13 @@
                     </li>
                 </ul>
 
-                <!--   Show this only lg screens and up   -->
-                <a class="navbar-brand d-none d-lg-block" href="#top">
-                    <img>
-                </a>
-                <ul class="navbar-nav">
+                <div class="navbar-brand">
+                    <a href="#top">
+                        <img alt="logo">
+                    </a>
+                </div>
+
+                <ul class="nav-right">
                     <li class="nav-item">
                         <a class="nav-link" href="html/philosophy.html">Philosophy </a>
                     </li>
@@ -82,17 +71,51 @@
                         <a class="nav-link" href="html/contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
+            <!-- </div> -->
+
+            <!-- Hamburger Menu -->
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top ham"></span>
+                <span class="hamburger-middle ham"></span>
+                <span class="hamburger-bottom ham"></span>
+            </button>
         </nav>
 
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden" id="mobile">
+            <ul>
+                <li>
+                    <a class="active" href="#intro">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="">
+                    <a class="dropdown-btn">Services ▾ </a>
+                    <div class="dropdown-container">
+                        <a href="html/teens.html">Teens</a>
+                        <a href="html/ya.html">Young Adults</a>
+                        <a href="html/families.html">Families</a>
+                    </div>
+                </li>
+                <li >
+                    <a href="html/process.html">Process</a>
+                </li>
+                <li>
+                    <a href="html/philosophy.html">Philosophy </a>
+                </li>
+                <li>
+                    <a href="html/staff.html">Staff</a>
+                </li>
+                <li>
+                    <a href="html/contact.html">Contact</a>
+                </li>
+            </ul>
+         </div>  
         <div class="container header-taglines">
             <h1 class="fadeIn">A Path Forward</h1>
             <h5 class="fadeIn"> slogan, quick bit of info about your services</h5>
             <br>
             <!-- <a href="#about" class="btn btn-outline-light btn-lg head-btn" role="button">Learn More</a>
-
             <a href="#contact" class="btn btn-outline-light btn-lg head-btn" role="button">Get In Touch</a> -->
-
         </div>
     </header>
 
