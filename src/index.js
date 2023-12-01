@@ -3,7 +3,6 @@ $(function(){
     $(window).scroll(setHeaderColor);      
   });
 
-
 function setHeaderColor() {
   if ($(document).scrollTop() > 100) {
     $('nav').removeClass('navbar-transparent');
